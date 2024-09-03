@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Jasmeen Arora | Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Jasmeen Arora</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/jasn-code" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/jas-arora24" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:arojasme@sheridancollege.ca">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Jasmeen Arora 👋</h2>
+        <p>Welcome to my portfolio! I am a 2nd student in the Software Development 
+          and Networking program at Sheridan College. 
+          I am passionate about technology and eager to apply my skills in programming and networking. Currently, I am seeking my first co-op opportunity in January 2025, where I can gain practical experience and contribute to innovative projects. 
+          Explore my work to see how I’m preparing for a successful career in the tech industry!</p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/My image.JPG" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">I possess a solid foundation in programming languages 
+        such as Java, Python, , and JavaScript, along with experience in 
+        web development using HTML and CSS. My understanding of networking fundamentals includes TCP/IP and various protocols. I'm knowledgeable in database management with SQL and familiar with the 
+        software development lifecycle (SDLC), particularly Agile methodologies. 
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Python</span>
+          
+        </div>
+        
+        <div class="cell">
+          <img src="images/download.png" alt="react logo">
+          <span>SQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Why I’m Excited to Work with You</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/My image.JPG">
+          <p>Jasmeen Arora</p>
+          <p></p>
+        </div>
+
+        <div class="text">
+          I’m eager to start a co-op position in Winter 2025 term. I’m excited about the chance to 
+          contribute my skills in software development and project management while learning 
+          from a dynamic team. The opportunity to work in an environment that 
+          values technology and continuous learning aligns perfectly with my career goals. 
+          I look forward to bringing my passion for technology and my eagerness to learn to your team.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>  If you have any questions or would like to get in touch, please feel free to contact me through the following methods:</p>
+          <p><strong>Email:</strong> <a href="mailto:arojasme@sheridancollege.ca">arojasme@sheridancollege.ca</a></p>
+      
+      
+      
+      <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/jas-arora24" target="_blank">LinkedIn Profile</a></p>
+
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
